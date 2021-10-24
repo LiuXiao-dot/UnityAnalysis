@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/01_Object/01_Object.unity
+- path: Assets/02_GridLayoutGroup/02_GridLayoutGroup.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
