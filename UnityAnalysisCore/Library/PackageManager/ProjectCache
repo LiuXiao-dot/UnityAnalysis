@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Git/Card/Services/GameDesigner-master/GameDesigner/Example/UnityAnalysis/Packages/manifest.json
+    m_FilePath: D:/Git/UnityAnalysis/UnityAnalysisCore/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,12 +8,12 @@ m_ProjectFiles:
       ticks: 637701643294773789
     m_Hash: 3180671498
   m_LockFileStatus:
-    m_FilePath: C:/Git/Card/Services/GameDesigner-master/GameDesigner/Example/UnityAnalysis/Packages/packages-lock.json
+    m_FilePath: D:/Git/UnityAnalysis/UnityAnalysisCore/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637701643306690670
+      ticks: 637706775783856425
     m_Hash: 688489108
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.18.11
       source: 1
-      resolvedPath: C:\Git\Card\Services\GameDesigner-master\GameDesigner\Example\UnityAnalysis\Library\PackageCache\com.unity.addressables.cn@1.18.11
+      resolvedPath: D:\Git\UnityAnalysis\UnityAnalysisCore\Library\PackageCache\com.unity.addressables.cn@1.18.11
       assetPath: Packages/com.unity.addressables.cn
       name: com.unity.addressables.cn
       displayName: Addressables.CN
@@ -138,7 +138,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Git\Card\Services\GameDesigner-master\GameDesigner\Example\UnityAnalysis\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: D:\Git\UnityAnalysis\UnityAnalysisCore\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -249,7 +249,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Git\Card\Services\GameDesigner-master\GameDesigner\Example\UnityAnalysis\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: D:\Git\UnityAnalysis\UnityAnalysisCore\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -356,7 +356,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Git\Card\Services\GameDesigner-master\GameDesigner\Example\UnityAnalysis\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+      resolvedPath: D:\Git\UnityAnalysis\UnityAnalysisCore\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -443,7 +443,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Git\Card\Services\GameDesigner-master\GameDesigner\Example\UnityAnalysis\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: D:\Git\UnityAnalysis\UnityAnalysisCore\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -514,7 +514,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.22
       source: 1
-      resolvedPath: C:\Git\Card\Services\GameDesigner-master\GameDesigner\Example\UnityAnalysis\Library\PackageCache\com.unity.test-framework@1.1.22
+      resolvedPath: D:\Git\UnityAnalysis\UnityAnalysisCore\Library\PackageCache\com.unity.test-framework@1.1.22
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -560,13 +560,15 @@ m_PackageAssets:
         - 1.1.26
         - 1.1.27
         - 1.1.29
+        - 1.1.30
         compatible:
         - 1.1.22
         - 1.1.24
         - 1.1.26
         - 1.1.27
         - 1.1.29
-        verified: 1.1.29
+        - 1.1.30
+        verified: 1.1.30
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -609,7 +611,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: C:\Git\Card\Services\GameDesigner-master\GameDesigner\Example\UnityAnalysis\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: D:\Git\UnityAnalysis\UnityAnalysisCore\Library\PackageCache\com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -772,7 +774,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.6
       source: 1
-      resolvedPath: C:\Git\Card\Services\GameDesigner-master\GameDesigner\Example\UnityAnalysis\Library\PackageCache\com.unity.timeline@1.4.6
+      resolvedPath: D:\Git\UnityAnalysis\UnityAnalysisCore\Library\PackageCache\com.unity.timeline@1.4.6
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -2731,7 +2733,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Git\Card\Services\GameDesigner-master\GameDesigner\Example\UnityAnalysis\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: D:\Git\UnityAnalysis\UnityAnalysisCore\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2792,7 +2794,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.19.1
       source: 1
-      resolvedPath: C:\Git\Card\Services\GameDesigner-master\GameDesigner\Example\UnityAnalysis\Library\PackageCache\com.unity.scriptablebuildpipeline@1.19.1
+      resolvedPath: D:\Git\UnityAnalysis\UnityAnalysisCore\Library\PackageCache\com.unity.scriptablebuildpipeline@1.19.1
       assetPath: Packages/com.unity.scriptablebuildpipeline
       name: com.unity.scriptablebuildpipeline
       displayName: Scriptable Build Pipeline
@@ -2935,5 +2937,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Git/Card/Services/GameDesigner-master/GameDesigner/Example/UnityAnalysis/Packages
+m_ProjectPath: D:/Git/UnityAnalysis/UnityAnalysisCore/Packages
 m_EditorVersion: 2020.3.1f1c1 (3e9f4b065a9d)
