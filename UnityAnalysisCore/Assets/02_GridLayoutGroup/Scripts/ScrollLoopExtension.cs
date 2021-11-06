@@ -16,7 +16,6 @@ namespace UnityAnalysis.Layout
         /// </summary>
         [SerializeField]
         private ScrollRect scrollRect;
-        private RectTransform rtScrollRect;
 
         /// <summary>
         /// ¿É¿Ø²¼¾Ö
@@ -41,7 +40,6 @@ namespace UnityAnalysis.Layout
 
         private void Awake()
         {
-            rtScrollRect = scrollRect.GetComponent<RectTransform>();
             scrollRect.onValueChanged.AddListener(onScroll);
         }
 
