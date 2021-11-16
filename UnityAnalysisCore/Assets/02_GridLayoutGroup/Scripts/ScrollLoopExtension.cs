@@ -73,7 +73,7 @@ namespace UnityAnalysis.Layout
 
             var dif = (content.anchoredPosition - new Vector2((layoutGroup.OffsetX - 3f) * size.x, (layoutGroup.OffsetY + 3f) * size.y)) / size; // 位置差值(个数)
 
-            if (layoutGroup.startAxis == GridLayoutGroup.Axis.Horizontal)
+            if (layoutGroup.startAxis == GridLayoutGroup.Axis.Horizontal) 
             {
                 // 水平排列
                 bool isMoveUp = dif.y > 0;
