@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/04_Batch/04_Batch.unity
+- path: Assets/05_GraphicRaycaster/05_GraphicRaycaster.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
