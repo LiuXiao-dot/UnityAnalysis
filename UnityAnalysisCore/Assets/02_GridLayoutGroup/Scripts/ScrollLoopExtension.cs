@@ -7,29 +7,29 @@ using UnityEngine.UI;
 namespace UnityAnalysis.Layout
 {
     /// <summary>
-    /// Ñ­»·ÁĞ±íÀ©Õ¹£ºÒÀÀµ£ºScrollRect,ControllableGridLayoutGroup
+    /// å¾ªç¯åˆ—è¡¨æ‰©å±•ï¼šä¾èµ–ï¼šScrollRect,ControllableGridLayoutGroup
     /// </summary>
     public class ScrollLoopExtension : MonoBehaviour
     {
         /// <summary>
-        /// ¹ö¶¯ÁĞ±í
+        /// æ»šåŠ¨åˆ—è¡¨
         /// </summary>
         [SerializeField]
         private ScrollRect scrollRect;
 
         /// <summary>
-        /// ¿É¿Ø²¼¾Ö
+        /// å¯æ§å¸ƒå±€
         /// </summary>
         [SerializeField]
         private ControllableGridLayoutGroup layoutGroup;
 
         /// <summary>
-        /// ÊÇ·ñÊı¾İ±»ĞŞ¸Ä
+        /// æ˜¯å¦æ•°æ®è¢«ä¿®æ”¹
         /// </summary>
         private bool dirty;
 
         /// <summary>
-        /// ×ÜµÄ×Ó¶ÔÏóÊıÁ¿
+        /// æ€»çš„å­å¯¹è±¡æ•°é‡
         /// </summary>
         [SerializeField]
         private int cellAmount = 100;
@@ -44,7 +44,7 @@ namespace UnityAnalysis.Layout
         }
 
         /// <summary>
-        /// ¹ö¶¯ÖĞ
+        /// æ»šåŠ¨ä¸­
         /// </summary>
         /// <param name="scrollPosition"></param>
         private void onScroll(Vector2 scrollPosition)
@@ -61,21 +61,21 @@ namespace UnityAnalysis.Layout
         }
 
         /// <summary>
-        /// Ñ­»·Âß¼­
+        /// å¾ªç¯é€»è¾‘
         /// </summary>
         private void Loop()
         {
             dirty = false;
 
-            // ×ø±êÅĞ¶Ï
+            // åæ ‡åˆ¤æ–­
             var content = scrollRect.content;
             var size = layoutGroup.cellSize + layoutGroup.spacing;
 
-            var dif = (content.anchoredPosition - new Vector2((layoutGroup.OffsetX - 3f) * size.x, (layoutGroup.OffsetY + 3f) * size.y)) / size; // Î»ÖÃ²îÖµ(¸öÊı)
+            var dif = (content.anchoredPosition - new Vector2((layoutGroup.OffsetX - 4f) * size.x, (layoutGroup.OffsetY + 4f) * size.y)) / size; // ä½ç½®å·®å€¼(ä¸ªæ•°)
 
             if (layoutGroup.startAxis == GridLayoutGroup.Axis.Horizontal) 
             {
-                // Ë®Æ½ÅÅÁĞ
+                // æ°´å¹³æ’åˆ—
                 bool isMoveUp = dif.y > 0;
                 int moveCountY = (int)Mathf.Abs(dif.y);
 
@@ -84,7 +84,7 @@ namespace UnityAnalysis.Layout
             }
             else
             {
-                // ´¹Ö±ÅÅÁĞ
+                // å‚ç›´æ’åˆ—
                 bool isMoveLeft = dif.x < 0;
                 int moveCountX = (int)Math.Abs(dif.x);
 
@@ -94,7 +94,7 @@ namespace UnityAnalysis.Layout
         }
 
         /// <summary>
-        /// ¸ù¾İ¼ÆËãÖµÒÆ¶¯¶ÔÏóÎ»ÖÃ
+        /// æ ¹æ®è®¡ç®—å€¼ç§»åŠ¨å¯¹è±¡ä½ç½®
         /// </summary>
         private void MoveItemsY(bool isMoveUpLeft, int moveCount)
         {
@@ -103,7 +103,7 @@ namespace UnityAnalysis.Layout
             {
                 if (isMoveUpLeft)
                 {
-                    // ÉÏ»¬£¬¶ÔÏóÒÆ¶¯µ½×îÏÂÃæ
+                    // ä¸Šæ»‘ï¼Œå¯¹è±¡ç§»åŠ¨åˆ°æœ€ä¸‹é¢
                     var lastIndex = GetLastIndex();
                     if (lastIndex + 1 == cellAmount)
                     {
@@ -153,7 +153,7 @@ namespace UnityAnalysis.Layout
         }
 
         /// <summary>
-        /// »ñÈ¡µ±Ç°µÚÒ»¸öÊı¾İµÄIndex
+        /// è·å–å½“å‰ç¬¬ä¸€ä¸ªæ•°æ®çš„Index
         /// </summary>
         /// <returns></returns>
         private int GetFirstIndex()
@@ -169,7 +169,7 @@ namespace UnityAnalysis.Layout
         }
 
         /// <summary>
-        /// ×îºóÒ»¸öindex
+        /// æœ€åä¸€ä¸ªindex
         /// </summary>
         /// <returns></returns>
         private int GetLastIndex()
